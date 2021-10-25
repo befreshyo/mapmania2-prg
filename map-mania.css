@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+h1 { 
+    color:rgb(70, 128, 78); 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+h2 { 
+    color:rgb(70, 128, 78); 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+p { 
+    color:rgb(70, 128, 78); 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+input{
+    font-family: sans-serif;
+    font-size: 15px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: white;
+    outline: none;}
+
+button {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top:1em;
+    margin-bottom: 0em;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;}

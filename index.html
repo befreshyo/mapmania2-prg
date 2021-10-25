@@ -1,0 +1,42 @@
+
+<!doctype html>
+<lang html="en">
+
+  <!--
+  
+  Author:  Paula Grata
+  Class:   WDP
+  Project: Map Mania v2
+  Session: su18-cpsc-24700-lt1
+  Description: Map Mania Program
+  -->
+  
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania v2.0 PRG</title>
+        <link rel="stylesheet" href="map-mania.css">
+        <script src ="map-mania.js"></script>
+        <style>
+          #myMapID {
+            height: 100%;
+            width: 100%;}
+        
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;}
+        </style>
+      </head>
+      <body onload="initApplication()">
+        <h1><u>map mania v2.0</u></h1>
+        <button onclick="myFunction()">instructions</button><Br>
+        <button onclick="initCheat()">cheat</button><br><br>
+        <c><input id="hint-id" type="text" value="first hint: home" size="100" disabled style="text-align: center;"></c><br>
+        <c><input id="score-id" type="text" value="score: 0" size="100" disabled style="text-align: center;"></c><br><br>
+        <div id="myMapID"></div>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwKUTRWGpiNJh0RsmgMS8qu3xSiCzVud4&callback=initMap"
+        async defer>
+      </script>
+      </body>
+</html>
