@@ -30,7 +30,7 @@ function initMap() {
 
   function initScore(score) {
     if (score == 5){
-      document.getElementById("score-id").value = "*score: 5*";
+      document.getElementById("score-id").value = "score: 5";
     } else if (score == 1){
     document.getElementById("score-id").value = "score: 1";
     } else if (score == 2){
